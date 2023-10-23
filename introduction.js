@@ -36,7 +36,7 @@ console.log(Math.round (pi))
 console.log(Math.floor (pi))
 console.log(Math.ceil (pi))
 
-let a = (22, -40, 80, 5,09)
+let a = (22, -40, 80, 5, 9)
 console.log(Math.min(a));
 console.log(Math.max(a));
 
@@ -114,3 +114,27 @@ let str5 = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam cupi
 
 console.log(str5.match("a"))
 console.log(str5.replaceAll("a", "A"))
+
+
+// EXERCISES
+let x = [0,1,2,3]
+let y = "0,1,2,3"
+console.log(y==x);
+x [4] = 25
+x [2] = 40
+console.log(x);
+y [4] = "123"
+y [8] = "2000"
+console.log(y);
+console.log(y.substr(2));
+
+console.log(str5.split(".", 2));
+console.log(str5.includes("Ut"));
+let x1 = "n1m1k1l1o1u1y1t1r1e1e3e4e5e6e7e8"
+console.log(x1.replaceAll("1", "e"));
+console.log(str5.lastIndexOf("a"));
+console.log(str5.startsWith("l"));
+console.log(x1.endsWith("e"));
+console.log(x1.search(/8/gi));
+console.log(str5.match("Ut"));
+console.log(str5.match(/Ut/i));
