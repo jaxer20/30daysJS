@@ -138,3 +138,7 @@ console.log(x1.endsWith("e"));
 console.log(x1.search(/8/gi));
 console.log(str5.match("Ut"));
 console.log(str5.match(/Ut/i));
+
+let y2 = "sdfgh bir sdflsjkgsşdl bir wepj bir dfghj bir wery bir sadfg bir gujtr bir qweqr bir jtyk Bir BIR BiR"
+console.log(y2.match("bir"));
+console.log(y2.match(/bir/gi));
