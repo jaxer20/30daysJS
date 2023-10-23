@@ -1,11 +1,12 @@
 .body{
     background-color: gray;
+    text-align: center;
 }
 
 .fb{
-    background-color: blue;
+    background-color: rgb(27, 27, 212);
     text-align: center;
-    color: yellow;
+    color: rgb(233, 233, 11);
 
 }
 .fb:hover{

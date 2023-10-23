@@ -142,3 +142,7 @@ console.log(str5.match(/Ut/i));
 let y2 = "sdfgh bir sdflsjkgsşdl bir wepj bir dfghj bir wery bir sadfg bir gujtr bir qweqr bir jtyk Bir BIR BiR"
 console.log(y2.match("bir"));
 console.log(y2.match(/bir/gi));
+console.log(y2.match(/bir/g));
+console.log(y2.match(/bir/));
+let xx = "I love js. js is good kind ofsoftware. Js fg "
+console.log(xx.match(/js/gi));
