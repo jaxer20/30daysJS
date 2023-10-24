@@ -81,3 +81,15 @@ let year = date.getFullYear()
 
     let todayTime = date.getTime()
     console.log(todayTime);
+
+    // let baseOfTriangle = prompt("Please enter value base of Triange")
+    // // let heightOfTriangle = prompt ("Please enter value height of triangle")
+
+    // let areaOfTriangle = (baseOfTriangle * heightOfTriangle) / 2
+
+    // console.log(areaOfTriangle);
+
+    let sideA = Number(prompt("enter side A"))
+    let sideB = Number(prompt("enter side B"))
+    let perimeter = (sideA + sideB) * 2
+    console.log(perimeter);
