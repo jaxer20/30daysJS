@@ -58,3 +58,26 @@ let year = date.getFullYear()
 
     console.log(ReadableDate);
     console.log(days[3]);
+
+    // exercises
+    console.log(4!=="4");
+    console.log(!(4!=="4"));
+    console.log(!(4>3 && 10>12));
+
+    let todayMonth = date.getMonth()
+    console.log(todayMonth);
+
+    let todayDay = date.getDate()
+    console.log(todayDay);
+    // 
+    let todayNumberOfDay = date.getDay()
+    console.log(todayNumberOfDay);
+
+    let todayHours = date.getHours()
+    console.log(todayHours);
+
+    let todayMinutes = date.getMinutes()
+    console.log(todayMinutes);
+
+    let todayTime = date.getTime()
+    console.log(todayTime);
