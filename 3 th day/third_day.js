@@ -89,7 +89,61 @@ let year = date.getFullYear()
 
     // console.log(areaOfTriangle);
 
-    let sideA = Number(prompt("enter side A"))
-    let sideB = Number(prompt("enter side B"))
-    let perimeter = (sideA + sideB) * 2
-    console.log(perimeter);
+    // let sideA = Number(prompt("enter side A"))
+    // let sideB = Number(prompt("enter side B"))
+    // let perimeter = (sideA + sideB) * 2
+    // console.log(perimeter);
+
+    // let r = Number(prompt("Enter value of radius"))
+    // const pi = Math.PI
+    // let area = pi * r * r
+    // console.log(area);
+
+    // let name1 = prompt ("Enter your name")
+    // let nameLenght = name1.length
+    // console.log(nameLenght >7 ? "your name is long" : "your name is short" );
+
+    // let firstName = prompt ("enter your first name")
+    // let lastName = prompt ("enter your last name")
+    // let f = firstName.length
+    // let l = lastName.length
+    // console.log(f > l ? " `your first name,  ${firstName} is longer than your family name, ${lastName}" : "your family name, ${lastName} is longer than your first name,  ${firstName}`");
+
+    // let firstName = "turgay"
+    // let lastName = "kayis"
+    // let f = firstName.length
+    // let l = lastName.length
+    // console.log(f > l ? " `your first name,  `${firstName}` is longer than your family name, lastName" : "your     family name, lastName is longer than your first     name,  firstName");
+    
+    
+    // let date1 = new Date()
+    // let birthYear = prompt("enter your birth day") 
+    // let age = date1.getFullYear() - birthYear
+    // let sure = 18 - age
+    // console.log(age < 18 ? `"ehliyet almak için ${sure} yil 
+    // beklemelisin"` : "ehliyet alabilir");
+
+
+    // let now = new Date (year)
+    // let birthYear = prompt("enter your birth day") 
+    // let age = now - birthYear
+    // let sure = 18 - age
+    // console.log(age < 18 ? `"ehliyet almak için ${sure} yil beklemelisin"` : "ehliyet alabilir");
+
+   
+    //*YYYY/MM/DD HH:mm oluşturma
+    let date1 = new Date ()
+    let yil = date.getFullYear()
+    let ay = date.getMonth()
+    let gun = date.getDay()
+    let saat = date.getHours()
+    let dakika = date.getMinutes()
+    let tarih = `${yil}/${ay}/ ${gun} ${saat}:${dakika}`
+    console.log(tarih); 
+
+    let date2 = new Date ("2017-01-26 9:4:1")
+    console.log(date2);
+
+    
+    
+    
